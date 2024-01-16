@@ -146,10 +146,15 @@ span {
 button {
     border: none;
     background-color: var(--Darkcyan);
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: 700;
     padding: 15px;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     cursor: pointer;
     transition: 0.3s;
 
@@ -157,14 +162,4 @@ button {
 
 button:hover {
     background-color: hsl(158, 36%, 20%);
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px
 }
